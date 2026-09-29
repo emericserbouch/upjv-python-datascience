@@ -21,5 +21,4 @@ Python & Data Science réalisés sur Google Colab.
 
 Cours de M. Guéry — Faculté d'Économie, UPJV
 """
-
-print(README)
+[TD1](td01_enonce.ipynb)
