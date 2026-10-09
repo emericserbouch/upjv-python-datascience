@@ -22,7 +22,7 @@ jobs:
       - name: Installer les dépendances
         run: pip install nbformat nbconvert ipykernel "numpy>=2,<3" "pandas>=2.0,<3.0" "matplotlib<4" seaborn scipy
 
-      - name: Détecter le TD depuis le nom de la branche
+      - name: Détecter le TD depuis le nom de la 
         run: |
           if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
             BRANCH=$GITHUB_HEAD_REF
